@@ -20,7 +20,9 @@ client.connect(err => {
 
 function App() {
   return (
-    
+    <div>
+      <h1>1 collection created</h1>
+      </div>
   );
 }
 
