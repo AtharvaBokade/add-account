@@ -10,8 +10,8 @@ client.connect(err => {
   const collection = client.db("test").collection("devices");
   // perform actions on the collection object
   const doc = {
-    Name : "Atharva";
-    Mobile_no: "7020084093";
+    Name : "Atharva",
+    Mobile_no: "7020084093"
   }
   db.collection("devices").insertOne(doc);
   client.close();
